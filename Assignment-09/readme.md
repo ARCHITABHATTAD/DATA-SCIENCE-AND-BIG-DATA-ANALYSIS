@@ -13,12 +13,12 @@ A strip plot is a scatter plot where one of the variables is categorical.
 
 fig, ax = plt.subplots(1, 1, figsize=(9, 7))
 np.random.seed(42)
-# Male Stripplot
+Male Stripplot
 ax.scatter(np.random.uniform(-0.3, 0.3, len(male_pos)), male_pos, color='#004c70', edgecolor='lightgray', label='Male(Survived=1)')
 ax.scatter(np.random.uniform(-0.3, 0.3, len(male_neg)), male_neg, color='#004c70', edgecolor='lightgray', alpha=0.2, label='Male(Survived=0)')
 
 
-# Female Stripplot
+Female Stripplot
 ax.scatter(1+np.random.uniform(-0.3, 0.3, len(female_pos)), female_pos, color='#990000', edgecolor='lightgray', label='Female(Survived=1)')
 ax.scatter(1+np.random.uniform(-0.3, 0.3, len(female_neg)), female_neg, color='#990000', edgecolor='lightgray', alpha=0.2, label='Female(Survived=0)')
 
