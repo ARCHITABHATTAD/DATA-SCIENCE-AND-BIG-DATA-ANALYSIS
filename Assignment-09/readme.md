@@ -13,6 +13,7 @@ Use the inbuilt dataset 'titanic' as used in the above problem.
 
 5.Bar + Scatter Plot (Stripplot)
 A strip plot is a scatter plot where one of the variables is categorical.
+
 ---
 fig, ax = plt.subplots(1, 1, figsize=(9, 7))
 np.random.seed(42)
